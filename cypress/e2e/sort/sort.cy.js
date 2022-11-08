@@ -62,6 +62,8 @@ describe('Login page test', () => {
 
     // cy.get('.LineGraphstyles__ForgroundCanvas-sc-1lh7n2l-2').eq(0).percySnapshotElement('Snapshot Name');
 
+    cy.percySnapshot('beaker', { scope: '.LineGraphstyles__CanvasBorder-sc-1lh7n2l-4:last-of-type' })
+
   })
 
 })
